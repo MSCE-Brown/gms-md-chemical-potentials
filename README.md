@@ -1,7 +1,5 @@
 # GMS MD-informed parametrization for excess chemical potentials and activity coefficients
 
-MD-derived generalized multicomponent solution (GMS) model parameterization for molecularly informed excess chemical potentials and activity coefficients in multicomponent liquid mixtures. 
-
 This repository contains data and analysis scripts for the manuscript:
 
 **A generalized multicomponent solution model bridging molecular solvation structure and activity coefficients, with applications to electrical double-layer dynamics**
@@ -14,9 +12,11 @@ The scripts convert molecular dynamics (MD)-derived radial distribution function
 gms-md-chemical-potentials/
   data/
     LiPF6_EC_EMC/
+      comsol_results/
       rdf/                       # Add LPF1M_EC-EMC_rdf.csv here
       processed/                 # Script outputs are written here
     TMABF4_EtOH_THF_MTC/
+      comsol_results/
       rdf/                       # Add bulk_16MTC6ion_RDF.csv here
       processed/                 # Script outputs are written here
     figure_data/                 # Add numerical data behind manuscript figures
@@ -50,10 +50,8 @@ pip install -r requirements.txt
 3. Run the parameterization in the Jupyter notebooks. The outputs include:
 
 - `rdf_shell_analysis.csv`: RDF peak, PMF minimum, cutoff, and CN for each center-neighbor pair;
-- `gms_parameters.csv`: final GMS parameters for each pair;
-- `affinity_matrix.csv`: symmetric affinity matrix `a_ij`;
-- `delta_epsilon_kjmol.csv`: effective pair interaction free energies in kJ/mol;
-- `coordination_size_Z.csv`: effective coordination size parameters.
+- `COMSOL_GMS_Parameters.txt`: summarizing final GMS parameters for each pair that can be inputs for COMSOL transport model;
+- Symmetric affinity matrix $a_{ij}$, effective pair interaction free energies $\Delta \epsilon_{ij}$, and effective coordination size parameters $Z_i$ are printed in the notebook cells.
 
 
 ## Citation

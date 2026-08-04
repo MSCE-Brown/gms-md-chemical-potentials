@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: GMS MD-informed activity coefficients
+authors:
+  - family-names: Gu
+    given-names: Chaoxuan
+  - family-names: Li
+    given-names: Maxim Q.
+  - family-names: Qi
+    given-names: Yue
+message: Please cite the associated manuscript and archived repository DOI.
+version: 0.1.0
+date-released: 2026-08-03
