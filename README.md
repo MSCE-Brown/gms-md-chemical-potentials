@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 - `rdf_shell_analysis.csv`: RDF peak, PMF minimum, cutoff, and CN for each center-neighbor pair;
 - `COMSOL_GMS_Parameters.txt`: summarizing final GMS parameters for each pair that can be inputs for COMSOL transport model;
-- Symmetric affinity matrix $a_{ij}$, effective pair interaction free energies $\Delta \epsilon_{ij}$, and effective coordination size parameters $Z_i$ are printed in the notebook cells.
+- Symmetric affinity matrix $a_{ij}$, effective pair interaction free energies $\Delta \epsilon_{ij}$, and effective coordination size parameters $Z_i$ are also printed in the notebook cells.
 
 
 ## Citation
