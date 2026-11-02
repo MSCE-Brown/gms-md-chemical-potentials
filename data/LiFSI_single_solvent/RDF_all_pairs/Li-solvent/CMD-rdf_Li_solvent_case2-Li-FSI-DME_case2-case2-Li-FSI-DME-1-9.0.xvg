@@ -1,0 +1,157 @@
+# This file was created Fri Oct  2 11:04:12 2026
+# Created by:
+#                        :-) GROMACS - gmx rdf, 2022 (-:
+# 
+# Executable:   /oscar/data/yqi27/xitan25/software/gmx-2022/bin/gmx
+# Data prefix:  /oscar/data/yqi27/xitan25/software/gmx-2022
+# Working dir:  /oscar/data/yqi27/xitan25/works/DoE_Reduction_Potential/cmd_workflow/main/prepare_aimd/Li-metal/case2-Li-FSI-DME/case2-case2-Li-FSI-DME-1-9.0/298K+0e
+# Command line:
+#   gmx rdf -f npt.xtc -s npt.tpr -b 1000 -e 2000 -n index.ndx -bin 0.01 -o /oscar/data/yqi27/xitan25/works/DoE_Reduction_Potential/cmd_workflow/main/prepare_aimd/Li-metal/analysis/get_all_rdf_gmx/Li-metal/all_pairs/Li-solvent/CMD-rdf_Li_solvent_case2-Li-FSI-DME_case2-case2-Li-FSI-DME-1-9.0.xvg -cn /oscar/data/yqi27/xitan25/works/DoE_Reduction_Potential/cmd_workflow/main/prepare_aimd/Li-metal/analysis/get_all_rdf_gmx/Li-metal/all_pairs/Li-solvent/CMD-cn_Li_solvent_case2-Li-FSI-DME_case2-case2-Li-FSI-DME-1-9.0.xvg -selrpos mol_com -seltype mol_com
+# gmx rdf is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "Radial distribution"
+@    xaxis  label "r (nm)"
+@    yaxis  label "g(r)"
+@TYPE xy
+@ subtitle "reference Li"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "DME"
+      0.000    0.000
+      0.010    0.000
+      0.020    0.000
+      0.030    0.000
+      0.040    0.000
+      0.050    0.000
+      0.060    0.000
+      0.070    0.000
+      0.080    0.000
+      0.090    0.000
+      0.100    0.000
+      0.110    0.000
+      0.120    0.000
+      0.130    0.014
+      0.140    0.456
+      0.150    2.448
+      0.160    5.700
+      0.170   13.690
+      0.180   25.492
+      0.190   25.005
+      0.200   14.847
+      0.210    6.507
+      0.220    2.442
+      0.230    1.077
+      0.240    0.335
+      0.250    0.121
+      0.260    0.094
+      0.270    0.016
+      0.280    0.015
+      0.290    0.000
+      0.300    0.003
+      0.310    0.000
+      0.320    0.000
+      0.330    0.000
+      0.340    0.002
+      0.350    0.000
+      0.360    0.000
+      0.370    0.000
+      0.380    0.000
+      0.390    0.003
+      0.400    0.001
+      0.410    0.003
+      0.420    0.007
+      0.430    0.008
+      0.440    0.017
+      0.450    0.020
+      0.460    0.022
+      0.470    0.042
+      0.480    0.063
+      0.490    0.071
+      0.500    0.092
+      0.510    0.118
+      0.520    0.183
+      0.530    0.256
+      0.540    0.296
+      0.550    0.454
+      0.560    0.562
+      0.570    0.802
+      0.580    0.978
+      0.590    1.113
+      0.600    1.277
+      0.610    1.386
+      0.620    1.460
+      0.630    1.399
+      0.640    1.343
+      0.650    1.339
+      0.660    1.321
+      0.670    1.296
+      0.680    1.149
+      0.690    1.168
+      0.700    1.143
+      0.710    1.071
+      0.720    1.077
+      0.730    1.014
+      0.740    1.024
+      0.750    0.997
+      0.760    0.940
+      0.770    0.957
+      0.780    0.924
+      0.790    0.933
+      0.800    0.923
+      0.810    0.929
+      0.820    0.899
+      0.830    0.942
+      0.840    0.939
+      0.850    0.930
+      0.860    0.881
+      0.870    0.873
+      0.880    0.867
+      0.890    0.861
+      0.900    0.880
+      0.910    0.871
+      0.920    0.852
+      0.930    0.875
+      0.940    0.854
+      0.950    0.901
+      0.960    0.910
+      0.970    0.949
+      0.980    0.934
+      0.990    0.959
+      1.000    1.014
+      1.010    0.996
+      1.020    1.050
+      1.030    1.053
+      1.040    1.125
+      1.050    1.104
+      1.060    1.102
+      1.070    1.101
+      1.080    1.110
+      1.090    1.084
+      1.100    1.120
+      1.110    1.109
+      1.120    1.125
+      1.130    1.103
+      1.140    1.102
+      1.150    1.114
+      1.160    1.099
+      1.170    1.086
+      1.180    1.092
+      1.190    1.064
+      1.200    1.061
+      1.210    1.052
+      1.220    1.045
+      1.230    1.047
+      1.240    1.038
+      1.250    1.033
+      1.260    1.053
+      1.270    1.029
+      1.280    1.007
+      1.290    1.018
+      1.300    0.999
+      1.310    0.997

@@ -1,0 +1,162 @@
+# This file was created Fri Oct  2 11:04:39 2026
+# Created by:
+#                        :-) GROMACS - gmx rdf, 2022 (-:
+# 
+# Executable:   /oscar/data/yqi27/xitan25/software/gmx-2022/bin/gmx
+# Data prefix:  /oscar/data/yqi27/xitan25/software/gmx-2022
+# Working dir:  /oscar/data/yqi27/xitan25/works/DoE_Reduction_Potential/cmd_workflow/main/prepare_aimd/Li-metal/case6-Li-FSI-PC/case1-case6-Li-FSI-PC-1-10.0/298K+0e
+# Command line:
+#   gmx rdf -f npt.xtc -s npt.tpr -b 1000 -e 2000 -n index.ndx -bin 0.01 -o /oscar/data/yqi27/xitan25/works/DoE_Reduction_Potential/cmd_workflow/main/prepare_aimd/Li-metal/analysis/get_all_rdf_gmx/Li-metal/all_pairs/FSI-solvent/CMD-rdf_FSI_solvent_case6-Li-FSI-PC_case1-case6-Li-FSI-PC-1-10.0.xvg -cn /oscar/data/yqi27/xitan25/works/DoE_Reduction_Potential/cmd_workflow/main/prepare_aimd/Li-metal/analysis/get_all_rdf_gmx/Li-metal/all_pairs/FSI-solvent/CMD-cn_FSI_solvent_case6-Li-FSI-PC_case1-case6-Li-FSI-PC-1-10.0.xvg -selrpos mol_com -seltype mol_com
+# gmx rdf is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "Cumulative Number RDF"
+@    xaxis  label "r (nm)"
+@    yaxis  label "number"
+@TYPE xy
+@ subtitle "reference FSI"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PC"
+      0.010    0.000
+      0.020    0.000
+      0.030    0.000
+      0.040    0.000
+      0.050    0.000
+      0.060    0.000
+      0.070    0.000
+      0.080    0.000
+      0.090    0.000
+      0.100    0.000
+      0.110    0.000
+      0.120    0.000
+      0.130    0.000
+      0.140    0.000
+      0.150    0.000
+      0.160    0.000
+      0.170    0.000
+      0.180    0.000
+      0.190    0.000
+      0.200    0.000
+      0.210    0.000
+      0.220    0.000
+      0.230    0.000
+      0.240    0.000
+      0.250    0.000
+      0.260    0.000
+      0.270    0.000
+      0.280    0.000
+      0.290    0.000
+      0.300    0.000
+      0.310    0.000
+      0.320    0.000
+      0.330    0.000
+      0.340    0.000
+      0.350    0.000
+      0.360    0.000
+      0.370    0.002
+      0.380    0.007
+      0.390    0.020
+      0.400    0.051
+      0.410    0.100
+      0.420    0.172
+      0.430    0.273
+      0.440    0.395
+      0.450    0.541
+      0.460    0.703
+      0.470    0.884
+      0.480    1.069
+      0.490    1.271
+      0.500    1.499
+      0.510    1.765
+      0.520    2.057
+      0.530    2.395
+      0.540    2.752
+      0.550    3.124
+      0.560    3.531
+      0.570    3.952
+      0.580    4.382
+      0.590    4.808
+      0.600    5.249
+      0.610    5.682
+      0.620    6.137
+      0.630    6.601
+      0.640    7.099
+      0.650    7.593
+      0.660    8.099
+      0.670    8.602
+      0.680    9.079
+      0.690    9.521
+      0.700    9.962
+      0.710   10.380
+      0.720   10.770
+      0.730   11.158
+      0.740   11.517
+      0.750   11.872
+      0.760   12.237
+      0.770   12.596
+      0.780   12.957
+      0.790   13.318
+      0.800   13.697
+      0.810   14.105
+      0.820   14.529
+      0.830   14.986
+      0.840   15.469
+      0.850   15.981
+      0.860   16.530
+      0.870   17.099
+      0.880   17.711
+      0.890   18.358
+      0.900   19.055
+      0.910   19.788
+      0.920   20.528
+      0.930   21.299
+      0.940   22.089
+      0.950   22.903
+      0.960   23.739
+      0.970   24.591
+      0.980   25.448
+      0.990   26.332
+      1.000   27.228
+      1.010   28.160
+      1.020   29.108
+      1.030   30.059
+      1.040   31.013
+      1.050   31.986
+      1.060   32.982
+      1.070   33.953
+      1.080   34.938
+      1.090   35.931
+      1.100   36.954
+      1.110   37.949
+      1.120   38.948
+      1.130   39.986
+      1.140   41.022
+      1.150   42.063
+      1.160   43.130
+      1.170   44.195
+      1.180   45.264
+      1.190   46.348
+      1.200   47.421
+      1.210   48.530
+      1.220   49.660
+      1.230   50.833
+      1.240   52.004
+      1.250   53.192
+      1.260   54.384
+      1.270   55.665
+      1.280   56.965
+      1.290   58.292
+      1.300   59.638
+      1.310   61.027
+      1.320   62.468
+      1.330   63.899
+      1.340   65.374
+      1.350   66.910
+      1.360   68.451
+      1.370   70.020
